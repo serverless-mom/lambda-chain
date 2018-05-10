@@ -1,7 +1,7 @@
 {
   "Resources": {
-    "lambda-on-deploy": {
-      "Type": "Custom::lambda-on-deploy",
+    "gatekeeper": {
+      "Type": "Custom::gatekeeper",
       "Properties": {
         "ServiceToken": {
           "Fn::GetAtt": ["c918b8f9", "Arn"]
