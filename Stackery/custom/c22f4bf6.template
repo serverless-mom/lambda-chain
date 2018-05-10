@@ -1,0 +1,12 @@
+{
+  "Resources": {
+    "lambda-on-deploy": {
+      "Type": "Custom::lambda-on-deploy",
+      "Properties": {
+        "ServiceToken": {
+          "Fn::GetAtt": ["c918b8f9", "Arn"]
+        }
+      }
+    }
+  }
+}
