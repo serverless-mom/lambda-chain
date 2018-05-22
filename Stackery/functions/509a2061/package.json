@@ -1,8 +1,9 @@
-
 {
   "name": "509a2061",
   "version": "1.0.0",
   "dependencies": {
-    "aws-sdk": "~2"
+    "aws-sdk": "~2",
+    "markdown-it": "^8.4.1",
+    "node-emoji": "^1.8.1"
   }
 }
